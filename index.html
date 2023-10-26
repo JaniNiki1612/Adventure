@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        /* navbar start from here*/
+        <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li class="active"><a href="#">Home</a></li>
+                <li> <a href="#">Tours</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">About</a></li>
+                <li class="ctn"> <a href="#">Contact</a></li>
+
+            </ul>
+            <img src="./menu-btn.png" alt="" class="menu-btn">
+
+
+
+
+        </nav>
+
+
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"> </div>
+            <h1>A Wonderful Gift</h1>
+            <a href="#" class="ctn"> Learn More</a>
+
+
+
+
+        </div>
+
+
+
+
+
+    </header>
+    <!--event-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.png" alt="">
+                <h4> Everest Camp Track</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nobis iure maiores, veniam voluptatem
+                    tempora necessitatibus earum illum, sunt voluptate officiis eaque doloribus hic! Labore natus fugiat
+                    recusandae ducimus deserunt!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+
+
+            <div class="col">
+                <img src="img2.png" alt="">
+                <h4> Walking Holidays</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus nobis iure maiores, veniam voluptatem
+                    tempora necessitatibus earum illum, sunt voluptate officiis eaque doloribus hic! Labore natus fugiat
+                    recusandae ducimus deserunt!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>
+                EXPLORE THE WORLD
+            </h1>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat sunt, rem laboriosam alias corporis,
+                cupiditate delectus provident ipsa reprehenderit a consequatur odit aut veritatis veniam id debitis!
+                Laborum, consequatur perferendis?</p>
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+
+
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>
+                    UPCOMING TOURS AND DESTINATION
+                </h1>
+                <div class="line"></div>
+                <P>
+                    I am experienced in tutoring students of all abilities and I believe I am the ideal candidate for
+                    this position. I work with students of all ages, from elementary school to college level. Whether
+                    the subject is science, math or basic study skills, I break material down into easy-to-understand
+                    concepts.
+                </P>
+                <a href="#" class="ctn" style="padding-top: 5px;">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image gallery">
+                 <img src="./img3.png" alt="">
+                 <img src="./img4.png" alt="">
+                 <img src="./img5.png" alt="">
+                 <img src="./img6.png" alt="">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="footer">
+<p>     
+    13th Street. 47 W 13th St, New York, NY 10011, USA. 20 Cooper Square. 20 Cooper Square, New York, NY 10003, USA. 2nd Street Dorm.
+
+</p>
+<p> Copyright @ 2020 Outdoor Adventure</p>
+
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classlist.toggle('mobile-menu')
+        })
+
+    </script>
+</body>
+
+</html>
